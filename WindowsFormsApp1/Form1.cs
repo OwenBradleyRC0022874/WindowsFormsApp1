@@ -21,5 +21,10 @@ namespace WindowsFormsApp1
         {
             MessageBox.Show("Hello World");
         }
+
+        private void txtBxName_TextChanged(object sender, EventArgs e)
+        {
+            MessageBox.Show("Hello " + txtBxName.Text);
+        }
     }
 }
